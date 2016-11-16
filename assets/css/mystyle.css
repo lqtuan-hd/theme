@@ -1,0 +1,227 @@
+#bs-example-navbar-collapse-1 ul li a {
+	color: black;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.cool-link {
+    display: inline-block;
+}
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.5px;
+    background: rgb(6,122,171);
+    transition: width .4s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+#main_menu {
+	background: white;
+
+
+}
+.m_t_10 {
+	background-color: rgb(6,122,171);
+	border: solid white 1px;
+	font-weight: bold;
+    font-size: 18px;
+    width: 18%;
+}
+.home_btn a:hover {
+	background-color: rgba(255,255,255,0);
+	color: white;
+	
+
+}
+.btnsolution {
+	background: white;
+	color:black;
+	border: solid 2px black;
+	border-radius: 4px;
+	width: 100%;
+}
+.btnsolution:hover {
+	color: black;
+	background: white;
+	border: solid 2px rgb(6,122,171);
+	border-radius: 4px;
+
+}
+#bs-example-navbar-collapse-1 ul li a:hover{
+	 
+
+}
+.content { margin-top: 30px; }
+.content-rv1  i {
+	color:black;
+}
+.quote h3{
+	color: black;
+}
+.home{
+    background: url(../images/banner.jpg) no-repeat center center;
+    background-size: contain;
+}
+.review {
+	min-height: 350px;
+	border-right: solid 2px;
+
+}
+.img-review1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: 55px;
+}
+.nameReview {
+	font-size: 20px
+}
+.content-rv1 p{
+	margin-top: 40px;
+    font-size: 15px;
+}
+.review h3 {
+	margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 34px;
+    font-weight: bold;
+    font-family: Tahoma;
+    color:black;
+}
+.endrv1 h4 {
+	    margin-top: 30px;
+	    color:black;
+
+}
+.bannerbot {
+	width: 100%;
+}
+.btnbottom {
+	margin-top: -300px;
+    margin-left: 200px;
+    
+}
+.mainmenu ul li a {
+
+}
+.mainmenu ul li a {
+	
+}
+.sign1 {
+	font-weight: bold;
+    color: black;
+    margin-left: 18px;
+}
+.single_history_content p {
+	  color: black;
+    margin-top: -50px;
+    font-size: 17px;
+    margin-left: 40px;
+}
+@media screen and (max-width: 770px) {
+    .btnbottom {
+	margin-top: -150px;
+    margin-left: 100px;
+	}
+	.single_history_content p{
+		margin-top: 20px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1131px){
+
+	.img-review1{
+	
+	margin-left: 0px;
+}
+}
+/*  ---- Price -----*/
+.headtab h2 {
+	color: black;
+    border-bottom: solid;
+    max-width: 150px;
+  
+    margin: auto;
+}
+.footermain {
+	background:rgb(55, 59, 67);
+	min-height: 300px;
+    margin-top: -21px
+}
+ .logoft {
+	 max-width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+.contactft p{
+	font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+.contactft i {
+
+    color: white;
+    font-size: 20px
+}
+.ftcontent p
+{
+	font-size: 15px;
+    margin-top: 10px;
+
+}
+.ftlogo {
+	    margin-top: 15px;
+
+}
+.ftlogo i {
+	font-size: 30px;
+}
+.contactft .col-xs-4 p {
+	font-size:13px;
+}
+.bgcolor {
+	min-height: 430px;
+	    background-color: rgba(32, 166, 235, .5); 
+}
+.bgcolor h2 {
+	    color: white;
+    padding-top: 20px
+}
+.head_title3 {
+	margin-bottom: 10px;
+}
+.btnprice {
+	text-align: center;
+}
+.head_title3  h2{
+	margin-top: 16px;
+}
+.btnsolutionpr {
+	background: white;
+	color:black;
+	border: solid 2px black;
+	border-radius: 4px;
+	font-family: roboto;
+}
+.btnsolutionpr:hover {
+	color: black;
+	background: white;
+	border: solid 2px rgb(6,122,171);
+	border-radius: 4px;
+
+}
+.phantram {
+	margin-top: -16%;
+    margin-left: 18%;
+}
+.pt {
+	    padding-right: 14%;
+}
